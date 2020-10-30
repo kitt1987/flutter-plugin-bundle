@@ -12,3 +12,6 @@ class Bundle {
   }
 }
 
+Future<String> executablePath() async {
+  return await Bundle.executablePath;
+}
