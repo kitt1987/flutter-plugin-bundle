@@ -11,3 +11,4 @@ class Bundle {
     return await _channel.invokeMethod('executablePath');
   }
 }
+
